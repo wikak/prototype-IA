@@ -9,7 +9,7 @@
 export default {
   methods: {
     onDecode(decodedString) {
-      window.location.href = decodedString;
+      window.location.href = decodedString,true;
     }
   }
 };
