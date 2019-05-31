@@ -9,10 +9,13 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.21",
     "core-js": "^2.6.5",
     "express": "^4.17.1",
     "vue": "^2.6.10",
-    "vue-qrcode-reader": "^2.0.1"
+    "vue-qrcode-reader": "^2.0.1",
+    "webpack-dev-server": "^2.9.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
