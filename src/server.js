@@ -1,4 +1,4 @@
-// server.js
+// server.jsx
 /* eslint-disable */
 var express = require('express');
 var path = require('path');

@@ -11,9 +11,9 @@
       </b-row>
       <b-row>
         <b-col style="background-color: #010E34;">
-          <div :key="oeuvre.id" v-for="oeuvre in oeuvres">
+          <div :key="oeuvre.id" v-for="oeuvre in oeuvres" style="text-align : center">
             <img style="
-        width: 250px;
+            width: 200px;
     height: auto;
 " :src="require(`${oeuvre}`)">
           </div>
