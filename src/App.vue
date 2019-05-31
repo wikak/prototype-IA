@@ -13,7 +13,7 @@
         <b-col style="background-color: #010E34;">
           <div :key="oeuvre.id" v-for="oeuvre in oeuvres">
             <img style="
-    width: 384px;
+        width: 250px;
     height: auto;
 " :src="require(`${oeuvre}`)">
           </div>
