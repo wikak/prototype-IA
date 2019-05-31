@@ -13,7 +13,7 @@
         <b-col style="background-color: #010E34;">
           <div :key="oeuvre.id" v-for="oeuvre in oeuvres" style="text-align : center">
             <img style="
-            width: 200px;
+            width: 220px;
     height: auto;
 " :src="require(`${oeuvre}`)">
           </div>
@@ -127,6 +127,7 @@ export default {
 }
 .bold {
   font-weight: bold;
+  font-size: 15px;
 }
 /**.block__oeuvres div:nth-child(1),
 .block__oeuvres div:nth-child(2) {
