@@ -19,16 +19,16 @@ const data =
   ],
   oeuvres:
     [
-      { "id": 0, "text": './assets/static/images/oeuvres.png' }
+      { "id": 0, "text": require('../assets/oeuvres.png') }
     ],
   artefact: [
-    { "id": 0, "text": './assets/static/images/vues.png' },
+    { "id": 0, "text": require('../assets/vues.png') },
   ],
   images_bottom:
     [
-      { "id": 0, "text": './assets/static/images/likes.png' },
-      { "id": 1, "text": './assets/static/images/capture.png' },
-      { "id": 2, "text": './assets/static/images/comments.png' },
+      { "id": 0, "text": require('../assets/likes.png')  },
+      { "id": 1, "text": require('../assets/capture.png')  },
+      { "id": 2, "text": require('../assets/comments.png') },
     ],
 }
 
