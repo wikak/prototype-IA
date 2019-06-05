@@ -12,6 +12,7 @@ export default {
   name: "qr-code",
   methods: {
     onDecode(decodedString) {
+      console.log(decodedString); 
       (window.location.href = decodedString), true;
     }
   }
