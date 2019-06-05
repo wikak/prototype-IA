@@ -12,6 +12,7 @@
     "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.21",
+    "connect-history-api-fallback": "^1.6.0",
     "core-js": "^2.6.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
