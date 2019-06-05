@@ -8,12 +8,16 @@
 
 <script>
 /* eslint-disable */
+import router from "vue-router";
 export default {
   name: "qr-code",
   methods: {
     onDecode(decodedString) {
-      console.log(decodedString); 
-      (window.location.href = decodedString), true;
+      console.log(decodedString);
+      //router.push({name: decodedString})
+      //window.location.replace(decodedString)
+      window.location.replace(decodedString);
+      //(window.location.href = decodedString), true;
     }
   }
 };
